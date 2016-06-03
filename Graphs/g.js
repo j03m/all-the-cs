@@ -54,6 +54,11 @@ Graph.prototype.dfs = function(vertex, path, visited){
     return path;
 };
 
+
+Graph.prototype.shortestPathDijkstra = function(start, end){
+
+};
+
 var g = new Graph(4);
 g.addEdge(0,1);
 g.addEdge(0,2);
