@@ -1,5 +1,3 @@
-var assert = require("assert");
-
 function Graph(size){
     this.size = size;
     this.nodes = new Array(size);
@@ -59,26 +57,6 @@ Graph.prototype.shortestPath = function(start, end){
 
 };
 
-var g = new Graph(4);
-g.addEdge(0,1);
-g.addEdge(0,2);
-g.addEdge(1,2);
-g.addEdge(2,0);
-g.addEdge(2,3);
-g.addEdge(3,3);
-var path = g.bfs(2);
-console.log(path);
-assert.deepStrictEqual(path, [2, 0, 3, 1]);
-
-g = new Graph(4);
-g.addEdge(0, 1);
-g.addEdge(0, 2);
-g.addEdge(1, 2);
-g.addEdge(2, 0);
-g.addEdge(2, 3);
-g.addEdge(3, 3);
-path = g.dfs(2);
-console.log(path);
-assert.deepStrictEqual(path, [2, 0, 1, 3]);
+module.exports = Graph;
 
 

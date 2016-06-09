@@ -1,0 +1,25 @@
+{
+  "name": "fun",
+  "version": "1.0.0",
+  "description": "All the things from:\r http://www.geeksforgeeks.org/interview-preparation-for-software-developer/",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/j03m/all-the-cs.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/j03m/all-the-cs/issues"
+  },
+  "homepage": "https://github.com/j03m/all-the-cs#readme",
+  "devDependencies": {
+    "mocha": "^2.5.3"
+  }
+}
